@@ -89,3 +89,6 @@
 
 [push]
 	default = matching
+[user]
+	email = terbolous@gmail.com
+	name = Erik Weber

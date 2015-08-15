@@ -20,8 +20,11 @@ Plugin 'godlygeek/tabular'
 " Markdown Vim Mode
 Plugin 'plasticboy/vim-markdown'
 
-" Solarized theme
-Plugin 'altercation/vim-colors-solarized'
+" Benokai theme
+Plugin 'benjaminwhite/Benokai'
+
+Plugin 'scrooloose/syntastic'
+Plugin 'tpope/vim-fugitive'
 
 " End of plugin list
 "
@@ -49,8 +52,16 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
-" Enable Solarized
+" Enable benokai
 syntax enable
-set background=dark
-colorscheme solarized
+colorscheme benokai
 
+" Syntastic settings
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0

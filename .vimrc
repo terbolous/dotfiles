@@ -25,6 +25,7 @@ Plugin 'benjaminwhite/Benokai'
 
 Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-fugitive'
+Plugin 'bling/vim-airline'
 
 " End of plugin list
 "
@@ -65,3 +66,6 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+
+" Enable airline status bar always
+set laststatus=2

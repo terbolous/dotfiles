@@ -29,6 +29,7 @@ Plugin 'bling/vim-airline'
 Plugin 'rodjek/vim-puppet'
 Plugin 'scrooloose/nerdtree'
 Plugin 'hdima/python-syntax'
+Plugin 'klen/python-mode'
 
 " End of plugin list
 "

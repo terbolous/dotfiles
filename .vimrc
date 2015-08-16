@@ -26,6 +26,9 @@ Plugin 'benjaminwhite/Benokai'
 Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-fugitive'
 Plugin 'bling/vim-airline'
+Plugin 'rodjek/vim-puppet'
+Plugin 'scrooloose/nerdtree'
+Plugin 'hdima/python-syntax'
 
 " End of plugin list
 "
@@ -69,3 +72,11 @@ let g:syntastic_check_on_wq = 0
 
 " Enable airline status bar always
 set laststatus=2
+set expandtab
+set smarttab
+set autoindent
+set tabstop=8
+set shiftwidth=4
+set softtabstop=4
+set cursorline
+set showmatch

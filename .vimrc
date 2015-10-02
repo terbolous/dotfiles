@@ -59,7 +59,7 @@ filetype plugin indent on    " required
 
 " Enable benokai
 syntax enable
-colorscheme benokai
+colorscheme Benokai
 
 " Syntastic settings
 set statusline+=%#warningmsg#
